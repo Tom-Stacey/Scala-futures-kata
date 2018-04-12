@@ -6,7 +6,6 @@ import testutils.PromiseResolvers
 
 class MathsServiceSpec extends WordSpec with Matchers with PromiseResolvers {
 
-  /*
   "addTwoNumbers" should {
     "add 3 and 4" in {
       await(MathsService.addTwoNumbers(3, 4)) shouldBe 7
@@ -136,6 +135,5 @@ class MathsServiceSpec extends WordSpec with Matchers with PromiseResolvers {
       await(MathsService.divideAndThenSubtractWithErrorDefaults(10, 5, 20)) shouldBe 1000
     }
   }
-  */
 
 }
